@@ -1,0 +1,3 @@
+[submodule "fomc-hawkish-dovish"]
+	path = fomc-hawkish-dovish
+	url = git@github.com:ChWeiqi/fomc-hawkish-dovish.git
