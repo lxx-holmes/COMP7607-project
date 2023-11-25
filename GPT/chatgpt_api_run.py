@@ -9,11 +9,12 @@ import pandas as pd
 import numpy as np
 from time import sleep
 
+path=""
 for seed in [5768, 78516, 944601]:
     for data_category in ["lab-manual-combine", "lab-manual-sp", "lab-manual-mm", "lab-manual-pc", "lab-manual-mm-split", "lab-manual-pc-split", "lab-manual-sp-split", "lab-manual-split-combine"]:
-
+      
         # load training data
-        test_data_path = "../training_data/test-and-training/test_data/" + data_category + "-test" + "-" + str(seed) + ".xlsx"
+        test_data_path = "../{path}/" + data_category + "-test" + "-" + str(seed) + ".xlsx"
         data_df = pd.read_excel(test_data_path)
 
 
@@ -33,7 +34,7 @@ for seed in [5768, 78516, 944601]:
             ]
             try:
                 chat_completion = openai.ChatCompletion.create(
-                        model="gpt-3.5-turbo",
+                        model="gpt-4-1106-preview",
                         messages=messages,
                         temperature=0.0,
                         max_tokens=1000

@@ -15,8 +15,9 @@ def decode(x):
 for data_category in ["lab-manual-combine", "lab-manual-sp", "lab-manual-mm", "lab-manual-pc", "lab-manual-mm-split", "lab-manual-pc-split", "lab-manual-sp-split", "lab-manual-split-combine"]:
     acc_list = []
     f1_list = []
+    path = ""
     for seed in [5768, 78516, 944601]:
-        df = pd.read_csv(f'../llm_prompt_test_labels/chatgpt_{data_category}_{seed}.csv')
+        df = pd.read_csv(f'../{path}/chatgpt_{data_category}_{seed}.csv')
     
         df["predicted_label"] = df["text_output"].apply(lambda x: decode(x))
         acc_list.append(accuracy_score(df["true_label"], df["predicted_label"]))
