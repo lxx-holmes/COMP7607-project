@@ -1,0 +1,32 @@
+lab-manual-combine
+f1 score mean:  0.6601
+f1 score std:  0.0165 
+
+lab-manual-sp
+f1 score mean:  0.6705
+f1 score std:  0.0356 
+
+lab-manual-mm
+f1 score mean:  0.6526
+f1 score std:  0.0362 
+
+lab-manual-pc
+f1 score mean:  0.6722
+f1 score std:  0.0472 
+
+lab-manual-mm-split
+f1 score mean:  0.6800
+f1 score std:  0.0065 
+
+lab-manual-pc-split
+f1 score mean:  0.7031
+f1 score std:  0.0386 
+
+lab-manual-sp-split
+f1 score mean:  0.6748
+f1 score std:  0.0141 
+
+lab-manual-split-combine
+f1 score mean:  0.6683
+f1 score std:  0.0183 
+
