@@ -1,0 +1,136 @@
+true_label,original_sent,text_output
+2,"So that’s in the low 20s, and that’s post the May employment report.","NEUTRAL
+The sentence does not indicate a clear stance towards tightening or easing of monetary policy. It simply provides information about a numerical value and its relation to a specific event."
+0,"At the time of our FOMC meeting in January, prospects for continued economic growth remained favorable, and we judged that monetary policy was well positioned to support that outlook.","NEUTRAL
+The sentence indicates that the stance of the monetary policy is well positioned to support the favorable prospects for continued economic growth, without explicitly mentioning any tightening or easing measures."
+2,"There’s a lot more demand for risk sharing, for liquidity services, and so on.","NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of monetary policy. It simply mentions the existence of demand for risk sharing and liquidity services, without expressing a preference for either direction."
+0,"By getting unemployment down, we hope to bring back to work some of the people who’ve been out of work as long as they have and, in that respect, try to avoid the longer-term consequences of people being out of work for months at a time.","DOVISH
+The sentence suggests a dovish stance as it emphasizes the goal of reducing unemployment and bringing back people who have been out of work for a long time. This indicates a focus on easing the monetary policy to stimulate job creation and avoid long-term consequences of unemployment."
+0,"But also we want to see inflation move up back to our 2 percent objective over the medium term, and so seeing above-trend growth and continuing tightness—greater tightness in labor and product markets—I think that will help us achieve our objective as well with respect to inflation.","DOVISH
+The sentence suggests that the speaker wants to see inflation move up to the 2 percent objective over the medium term. This indicates a preference for easing of the monetary policy to stimulate inflation."
+2,That is a positive for growth.,"NEUTRAL
+The sentence does not indicate a specific stance towards tightening or easing of monetary policy. It simply states that the mentioned factor is positive for growth, without indicating any specific policy direction."
+0,"We have a 2 percent symmetric inflation objective, and, for a number of years now, inflation has been running under 2 percent.","DOVISH
+The sentence suggests that inflation has been running below the 2 percent objective for a number of years, indicating a need for easing monetary policy to stimulate inflation and bring it closer to the target."
+2,So the term “trend inflation”—usually there are a variety of statistical techniques that can be used to extract a trend from a series.,"NEUTRAL
+The sentence does not indicate a clear stance on monetary policy. It is discussing statistical techniques used to extract a trend from a series, which is a neutral topic unrelated to tightening or easing of monetary policy."
+0,"Inflation pressures remain muted, and indicators of longer-term inflation expectations are at the lower end of their historic ranges.","DOVISH
+The sentence indicates that inflation pressures are low and longer-term inflation expectations are also low. This suggests a need for easing of the monetary policy to stimulate economic growth and increase inflation."
+0,"During this time of reopening, we are likely to see some upward pressure on prices, and I’ll discuss why.","DOVISH
+The sentence suggests that there will be upward pressure on prices during the reopening period, indicating a need for monetary policy easing to counteract potential inflationary effects."
+0,"And, and those are—that’s again—that goes to keeping this episode as short as it can be and avoiding unnecessary business bankruptcies, unnecessary household bankruptcies, and unnecessary long-term stays of unemployment or supporting people through them so that they can maintain their financial footing and their lives and be able to go back to work in a productive way.","DOVISH
+
+The sentence suggests a dovish stance as it emphasizes the importance of avoiding unnecessary business and household bankruptcies, long-term unemployment, and supports people in maintaining their financial stability and returning to work in a productive manner. This indicates a preference for easing monetary policy to support economic recovery and job creation."
+0,"So you have seen a shift this time in most participants’ assessments of the appropriate path for policy, and, as I tried to indicate, I think that largely reflects a somewhat slower projected path for global growth—for growth in the global economy outside the United States—and for some tightening in credit conditions in the form of an increase in spreads.","Label: DOVISH
+
+Explanation: The sentence suggests that there has been a shift in participants' assessments of the appropriate path for policy, indicating a somewhat slower projected path for global growth and tightening in credit conditions. This implies a potential need for easing of the monetary policy to support the economy."
+2,"Inflation, in fact, is under control, and starting to come down.","DOVISH
+The sentence suggests that inflation is currently under control and starting to decrease, indicating a positive outlook for the economy. This implies a potential easing of the monetary policy to support economic growth."
+2,It will include all data relevant to our dual mandate of stable prices and maximum employment.,"NEUTRAL
+The sentence does not indicate a specific stance towards tightening or easing of monetary policy. It simply states that the data included will be relevant to the dual mandate of stable prices and maximum employment, without expressing a preference for either direction."
+0,"So in—in—in U-6, the U-6 level of unemployment has tripled from 7 percent to 21 percent.","DOVISH
+The sentence indicates a negative trend in the U-6 level of unemployment, which has tripled from 7 percent to 21 percent. This suggests a need for easing of the monetary policy to stimulate economic growth and reduce unemployment."
+0,"So, if we maintain a highly accommodative monetary policy for a very long time from here and the economy performs as we expect—namely, it’s strong and the risks that are out there don’t materialize—my concern will be that we will have much more tightening in labor markets than you see in these projections.","Label: HAWKISH
+
+Explanation: The sentence suggests that if a highly accommodative monetary policy is maintained for a long time and the economy performs as expected, there will be concerns about excessive tightening in labor markets. This indicates a stance towards tightening of the monetary policy."
+2,That should drive productivity.,"NEUTRAL
+The sentence does not indicate a clear stance on monetary policy. It simply suggests that the mentioned action will lead to an increase in productivity, without specifying whether it aligns with tightening or easing of the monetary policy."
+1,"In other cases, it’s pretty clear that inflation has spread more broadly across services.","DOVISH
+The sentence suggests that inflation has spread more broadly across services, indicating a need for easing of the monetary policy to address the situation."
+2,I would further say that I think it’s important to emphasize that we’re not going to mechanically take the interest rate projections that participants provide and just build policy off of that.,"NEUTRAL
+The sentence suggests a neutral stance as it emphasizes the importance of not mechanically relying on interest rate projections provided by participants to formulate policy."
+2,"But—so I would just say that our—that there are many things that go in, as you know, to, to setting asset prices.","NEUTRAL
+The sentence does not indicate a clear stance on tightening or easing of monetary policy. It simply mentions that there are various factors that contribute to setting asset prices."
+0,"Last year, we had 1.9 percent productivity, which is much higher.","NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of the monetary policy. It simply states a fact about the productivity rate without expressing any opinion or direction."
+2,"Looking ahead, FOMC participants project the unemployment rate to continue to decline; the median projection is 5 percent at the end of next year and moves below 4 percent by 2023.","DOVISH
+The sentence suggests that the FOMC participants expect the unemployment rate to decrease in the future, with projections indicating a decline to 5 percent by the end of next year and below 4 percent by 2023. This indicates a dovish stance as it implies a potential easing of the monetary policy to support economic growth and job creation."
+0,"And no, we’re not—we, we have not at all changed our view, and I haven’t changed my view that inflation running above 2 percent, moderately above 2 percent, is a desirable thing.","DOVISH
+The sentence suggests a dovish stance as the speaker expresses a positive view towards inflation running above 2 percent, indicating a preference for an easing of the monetary policy."
+1,"I mean, it really depends on how long it takes for wages and, more than that, prices to come down for inflation to come down.","DOVISH
+The sentence suggests a dovish stance as it emphasizes the need for wages and prices to come down in order for inflation to decrease. This implies a preference for easing monetary policy to stimulate economic growth."
+0,"And then, what the statement emphasizes, and this is the same language we used in December and January, we used the language especially if inflation is running below our 2 percent objective.","DOVISH
+The sentence suggests a dovish stance as it mentions the use of language regarding inflation running below the 2 percent objective, indicating a willingness to ease monetary policy to stimulate inflation."
+0,Long-term unemployment in the current economy is—is the worst—really the worst it’s been in the postwar period.,"DOVISH
+The sentence suggests that long-term unemployment in the current economy is at its worst, indicating a need for policy measures to ease the monetary policy and stimulate economic growth."
+2,"If we—if we analyze inflation data and conclude that, clearly, transitory influences are holding down inflation, I do not want to say that we would respond to that.","DOVISH
+The sentence suggests a dovish stance as it implies a willingness to overlook transitory influences that are holding down inflation and not respond to them, indicating a potential easing of the monetary policy."
+0,"But many other commodity prices have fallen further, and the reason I would give for that is that the emerging markets—China, the rest of Asia, and some other parts of the world—plus Europe, of course, are softer, and so global commodity demand is weaker.","DOVISH
+The sentence suggests that global commodity demand is weaker due to softer emerging markets and Europe. This implies a need for easing of the monetary policy to stimulate economic growth."
+0,"Inflation has declined further below our longer-run objective, largely reflecting the lower energy prices I just mentioned.","DOVISH
+The sentence indicates that inflation has declined, which suggests a need for easing of the monetary policy to stimulate economic growth."
+2,"But in terms of just targeting growth, you know, I think—I actually think our dual mandate works very well, which is maximum employment and stable prices.","NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of monetary policy. It simply states that the dual mandate of maximum employment and stable prices works well in terms of targeting growth."
+0,"I expect that to continue, and I would expect also to see some improvement in the degree of part-time employment that’s for economic reasons.","DOVISH
+The sentence suggests that the speaker expects to see an improvement in part-time employment for economic reasons. This indicates a potential need for easing of the monetary policy to stimulate economic growth and job creation."
+2,"So let me talk about the coronavirus specifically, and then I’ll turn more to global growth more generally.","NEUTRAL
+The sentence does not indicate a clear stance on monetary policy. It primarily discusses the topic of the coronavirus and then transitions to a broader discussion on global growth."
+1,"Inflation has moved up in recent months, mainly reflecting higher prices for some commodities and imported goods.","DOVISH
+The sentence indicates that inflation has increased in recent months, primarily due to higher prices for certain commodities and imported goods. This suggests a need for easing of the monetary policy to control inflation."
+2,We have long said that the size of the balance sheet will be considered normalized when the balance sheet is once again at the smallest level consistent with conducting monetary policy efficiently and effectively.,"NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of the monetary policy. It simply states a goal of normalizing the size of the balance sheet in order to conduct monetary policy efficiently and effectively."
+0,But I want to emphasize that we do have a commitment to raising inflation to 2 percent.,"DOVISH
+The sentence indicates a commitment to raising inflation to 2 percent, which suggests a stance towards easing monetary policy to stimulate economic growth."
+2,"So in terms of financial markets and monetary policy, we—as we say in our statement every cycle, we do take financial conditions into consideration because financial—broader financial conditions do affect the broader economy, and they’re one of the many things that we take into account.","NEUTRAL
+The sentence indicates that the Federal Open Market Committee (FOMC) considers financial conditions when making monetary policy decisions. It suggests that financial conditions have an impact on the broader economy, but it does not explicitly state a preference for tightening or easing of monetary policy. Therefore, the stance is neutral."
+1,"And that, I think, does raise, raise the risk that high inflation will be more persistent.","DOVISH
+The sentence suggests that there is a risk of high inflation persisting, which implies a need for monetary policy measures to ease or stimulate the economy."
+0,"By the way, we’re also not at maximum employment, as I mentioned.","DOVISH
+The sentence suggests that the current employment level is not at its maximum, indicating that there is room for improvement. This implies a dovish stance, as it suggests a need for further easing of the monetary policy to stimulate employment."
+0,where unemployment continues to fall at a gradual pace as it has been since last September—and we have made some progress since last September,"NEUTRAL
+The sentence does not indicate a clear stance towards tightening or easing of monetary policy. It simply states that unemployment has been falling gradually since last September and some progress has been made."
+0,We want to see lower unemployment.,"DOVISH
+The sentence expresses a desire for lower unemployment, which suggests a supportive stance towards easing monetary policy to stimulate economic growth and job creation."
+0,and inflation rises slowly towards 2 percent.,"NEUTRAL
+The sentence indicates a neutral stance as it simply states that inflation is gradually increasing towards the target of 2 percent, without expressing any explicit inclination towards tightening or easing of monetary policy."
+2,It also affects stock prices.,"NEUTRAL
+The sentence does not indicate a clear stance on monetary policy. It simply states that there is an impact on stock prices, without specifying whether it is positive or negative."
+0,The shock that the—from the pandemic was unprecedented both in its nature and in its size and in the amount of unemployment that it created and in the shock to economic activity.,"NEUTRAL
+The sentence does not indicate a specific stance towards tightening or easing of monetary policy. It primarily describes the unprecedented nature and impact of the pandemic shock on various aspects of the economy."
+0,"And it’s natural that if it can be employed that, just as monetary policy is doing a lot to try to June 15, 2016 stimulate growth, that fiscal policy should play a role.","NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of monetary policy. It suggests that fiscal policy should also play a role in stimulating growth, without explicitly favoring one direction over the other."
+0,"Of course, we can’t do anything about long-run employment opportunities, but we can help the economy recover more quickly.","DOVISH
+The sentence suggests a dovish stance as it implies a willingness to take action to help the economy recover more quickly, which typically involves easing monetary policy."
+0,I think that keeping interest rates low is still appropriate for our economy.,"DOVISH
+The sentence suggests a preference for keeping interest rates low, which indicates a stance towards easing monetary policy to support the economy."
+2,"So it’s a serious economic problem for the United States, but it’s—it’s got underlying causes that are not related to monetary policy or to our response to the pandemic.","NEUTRAL
+The sentence states that the economic problem in the United States is serious, but it is not related to monetary policy or the response to the pandemic. This indicates a neutral stance as it does not suggest any tightening or easing of the monetary policy."
+2,"We expect the economy will continue to perform well, with the job market strengthening further and inflation rising to 2 percent over the next couple of years.","HAWKISH
+The sentence indicates an expectation of a strong economy, with a strengthening job market and rising inflation. This suggests a potential need for tightening of the monetary policy to control inflation."
+1,"So I, you know, I’m—I feel quite comfortable that we can—in particular, that we can raise interest rates at the appropriate time, even if the balance sheet remains large for an extended period.","HAWKISH
+The sentence suggests a stance of tightening monetary policy as the speaker expresses comfort in raising interest rates, even if the balance sheet remains large for an extended period."
+2,"So, we are taking account of international developments, including prospects for growth in our trade partners, in making the forecast we have here.","NEUTRAL
+The sentence indicates that the speaker is considering international developments and growth prospects of trade partners when making a forecast. This suggests a neutral stance as it does not explicitly lean towards tightening or easing of monetary policy."
+0,"And, you know, we do want inflation to run moderately above 2 percent.","DOVISH
+The sentence suggests a dovish stance as it indicates a desire for inflation to run moderately above 2 percent, which implies a willingness to ease monetary policy to stimulate economic growth."
+2,"If we don’t see the improvement that’s projected in the baseline outlook, that the June 18, 2014 opposite would be true and the pace of the timing and pace of interest rate increases would be Chair Yellen’s Press Conference FINAL later and more gradual.","DOVISH
+The sentence suggests that if the projected improvement in the baseline outlook does not occur, the pace of interest rate increases would be later and more gradual. This indicates a potential easing of the monetary policy, as the central bank may delay and slow down the rate hikes."
+0,"You know, stimulating aggregate demand is one thing, but where there’s a part of the economy that kind of will be resistant to that, you also need fiscal policy.","DOVISH
+The sentence suggests that stimulating aggregate demand alone may not be sufficient, indicating a need for fiscal policy as well. This implies a more accommodative stance towards monetary policy, hence classified as 'DOVISH'."
+1,"In any case, we, our job is to deliver price stability, and I think—you can think of price stability as an asset that just delivers large benefits to society over a long period of time.","NEUTRAL
+The sentence does not indicate a clear stance on tightening or easing of monetary policy. It emphasizes the importance of delivering price stability, which is seen as beneficial to society in the long term."
+0,"I don’t think we look at—I understand what you’re asking, but we’re looking at—our mandate is price inflation and maximum employment, and that’s what we’re looking at with setting interest rates.","NEUTRAL
+The sentence indicates that the speaker is focused on their mandate of price inflation and maximum employment when setting interest rates, without expressing a clear inclination towards tightening or easing of monetary policy."
+0,"And if the stock theory of the portfolio is correct, which we believe it is, holding all of those securities off of the market and reinvesting and still keeping the, you know, rolling-over maturing securities, will still continue to put downward pressure on interest rates.","DOVISH
+The sentence suggests that holding securities off the market and reinvesting them, along with rolling over maturing securities, will continue to put downward pressure on interest rates. This indicates a dovish stance, as it implies a willingness to maintain or even lower interest rates to stimulate economic growth."
+0,"We have continued to provide guidance, the same guidance that we have for some time, that says the Committee “anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.” I know that’s a mouthful, but it says, in effect, that the Committee believes that the economic conditions that have made recovery difficult, we’re getting beyond them.","Label: DOVISH
+
+Explanation: The sentence suggests that the Committee believes that economic conditions may warrant keeping the target federal funds rate below normal levels even after employment and inflation are near mandate-consistent levels. This indicates a willingness to continue with an accommodative monetary policy, which is dovish in nature. Additionally, the statement implies that the economic conditions that have hindered recovery are improving, further supporting a dovish stance."
+2,"You know, it’s interest rates, it’s risk spreads, it’s currency, it’s the stock market, it’s credit availability, it’s many, many factors.","NEUTRAL
+The sentence does not indicate a specific stance towards tightening or easing of monetary policy. It simply mentions various factors that can influence the economy, without expressing a clear bias towards any particular direction."
+1,"Admittedly, some of the wage increases is being eaten away by inflation.","DOVISH
+The sentence suggests that the wage increases are being eroded by inflation, indicating a need for monetary policy easing to combat the negative effects of inflation on wages."
+2,"She showed there some so-called optimal policy rules that come from trying to get the best possible outcomes from our quantitative econometric models, and what you see, if you look at that, is that the best possible outcomes, assuming perfect certainty, assuming perfect foresight—very unrealistic assumptions—still involve inflation staying quite close to 2 percent.","DOVISH
+The sentence suggests that the speaker is presenting optimal policy rules derived from quantitative econometric models. These rules indicate that even under unrealistic assumptions of perfect certainty and perfect foresight, the best outcomes still involve inflation staying close to 2 percent. This implies a preference for maintaining accommodative monetary policy, which aligns with a dovish stance."
+1,And so you’re seeing prices are moving back up off their lows there.,"DOVISH
+The sentence suggests that prices are rebounding from their lows, indicating a potential easing of the monetary policy to stimulate economic growth."
+1,"I would say, in the area of commercial real estate, while valuations are high, we are seeing some tightening of lending standards and less debt growth associated with that rise in commercial real estate prices.","HAWKISH
+The sentence indicates that there is tightening of lending standards and less debt growth in the area of commercial real estate. This suggests a more cautious approach towards lending and a potential decrease in the availability of credit, which aligns with a tightening of monetary policy."
+0,"As was highlighted by the Bureau of Labor Statistics, this figure likely understates the extent of unemployment; accounting for the unusually large number of workers who reported themselves as employed but absent from their jobs would raise the unemployment rate by about 3 percentage points.","DOVISH
+The sentence suggests that the extent of unemployment is likely understated, indicating a need for policy measures to ease the monetary policy and stimulate employment."
+2,"We’re also, as part of our review, looking at potential innovations, changes to the way we think about things, changes to the framework that would lead us—that would be more supportive of achieving inflation on a 2 percent—on a symmetric 2 percent basis over time.","DOVISH
+
+The sentence suggests that the speaker is considering potential innovations and changes to the framework in order to achieve inflation on a symmetric 2 percent basis over time. This indicates a willingness to ease the monetary policy and suggests a dovish stance."
+2,Same thing with economic activity.,"NEUTRAL
+The sentence does not indicate a clear stance towards either tightening or easing of monetary policy. It simply states that there is a similarity or parallel between the mentioned topic (economic activity) and something else."
