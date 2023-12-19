@@ -50,10 +50,42 @@ Our codes and outputs for zero-shot ChatGPT and prompt engineering can be found 
 
 ### Reproduction of original paper's experiments on Flang-RoBERTa-base, RoBERTa-base, RoBERTa-large
 
+We choose three fine-tuned PLMs from the original paper to reproduce the experiment result: the Flang-RoBERTa-base model trained on MM-S data, which is the best-performing finance domain-specific language model; the RoBERTa-base trained on Combined-S data, which is the best-performing base size model; and the RoBERTa-large model trained on combined data, which is the overall best-performing model. We reproduce the results and compare with the authors' original results. 
+
+In the original paper, Flang-RoBERTa-base trained on MM-S data is the best-performing finance domain-specific model, achieving test F1 of 0.6854. We use the same set of hyperparameters on the MM-S data, and get a test F1 of 0.6692.
+
+The codes for reproduction of Flang-RoBERTa-base and the output result can be found in:
+
+[Flang-RoBERTa reproduction](Reproduction/)
+
+In the original paper, RoBERTa-base trained on Combined-S data is the best-performing base size model, achieving test F1 of 0.6981. We use the same set of hyperparameters on the combined-S data, and get a test F1 of 0.6722.
+
+The codes for reproduction of RoBERTa-base and the output result can be found in:
+
+[RoBERTa-base reproduction](Reproduction/)
+
+In the original paper, RoBERTa-large trained on Combined data is the overall best-performing model, achieving test F1 of 0.7171. We use the same set of hyperparameters on the combined data, and get a test F1 of 0.7204.
+
+The codes for reproduction of RoBERTa-base and the output result can be found in:
+
+[RoBERTa-large reproduction](Reproduction/)
+
 ### Search for additional hyperparameters on RoBERTa-large
+
+In the original paper, the best-performing model on the sentence classification task is the RoBERTa-large model trained on combined data, with batch size 16, learning rate 1e-5, AdamW optimizer, and 20% of the training sentences randomly split into validation set.
+
+We experiment with different batch sizes, learning rates, optimizer and percentage of validation data. For each set of hyperparameters, we experiment with 3 random seeds, and average the results.
+
+The codes and experiment results can be found in:
+
+[RoBERTa-large additional hyperparameters](Reproduction/)
 
 ### XLNet
 
 ### XLM-RoBERTa-base
 
 ## Implementing a trading strategy on the sentence classifier
+
+Here is an application of the hawkish-dovish sentence classifier in constructing a trading strategy, same as that in the original paper. In this strategy ("our strategy"), a document-level hawkish tone measure is calculated on FOMC historical documents; this strategy will buy the QQQ index stocks when the FOMC shows a dovish tone, and short the QQQ index stocks when a hawkish tone is observed. The investment result is compared with the simple "buy and hold" strategy, where an investor simply buy the QQQ index at the beginning and hold till the end.
+
+It can be seen in the output graphs that "our strategy" can outperform the "buy and hold strategy" to earn an extra return.
