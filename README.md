@@ -82,7 +82,19 @@ The codes and experiment results can be found in:
 
 ### XLNet
 
+XLNet, introduced by Yang et al. (2019), can achieve state-of-the-art results on several NLP benchmarks, surpassing BERT and other models on tasks like text classification, question answering, and sentiment analysis. Our study shows that it can perform closely to RoBERTa, and outperform RoBERTa-base on the PC-S dataset. 
+
+We fine-tuned XLNet to do the hawkish-dovish sentence classification task; codes and experiment results can be found in:
+
+
+
 ### XLM-RoBERTa-base
+
+XLM-RoBERTa-base proposed by Conneau et al. (2019) is an extension of the RoBERTa model, specifically designed to improve multilingual capabilities and performance across a wide range of languages. Although our study focused only on English sentences and observed that XLM-RoBERTa did not perform as well as RoBERTa, we recognize the importance of XLM-RoBERTa's multilingual capabilities. In a world where global interactions are the norm, XLM-RoBERTa's proficiency in various languages is invaluable, especially for understanding the monetary policies of central banks in non-English speaking countries.
+
+We fine-tuned XLM-RoBERTa-base to do the hawkish-dovish sentence classification task; codes and experiment results can be found in:
+
+
 
 ## Implementing a trading strategy on the sentence classifier
 
