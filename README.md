@@ -15,24 +15,42 @@ https://github.com/gtfintechlab/fomc-hawkish-dovish
 
 ## Project structure
 
-## Reproduction of original paper's experiments
+## Rule-based model
 
-### Rule-based model
+In alignment with the methodology outlined in the original paper, our study employs the rule-based dictionary developed by Gorodnichenko et al. (2021). This dictionary encompasses a variety of terms and keywords related to different monetary policy stances, including topics such as inflation, interest rates, economic activity, and employment. We apply this dictionary specifically to filter the titles of FOMC speeches, intending to identify those speeches that are likely to contain pertinent information on monetary policy. By replicating the rule-based approach from the original paper, we obtain the same results as those presented in the original study.
 
-### Zero-shot ChatGPT-3.5-Turbo
+Our codes and outputs for rule-based model can be found in:
 
-### Fine-tuned PLMs:Flang-RoBERTa-base, RoBERTa-base, RoBERTa-large
 
-## Model enhancements and experiments on new models
+## Zero-shot GPT and prompt engineering
 
-### Zero-shot ChatGPT-4-Turbo
+In the original paper, the authors use zero-shot ChatGPT-3.5-Turbo as one of the models to complete the sentence hawkish-dovish classification task.
 
-### Prompt engineering on ChatGPT-4-Turbo
+We first reproduce the result using zero-shot ChatGPT-3.5-Turbo with the original prompt in the paper: 
 
-### Search for additional hyperparameters on RoBERTa-large model
+"Discard all the previous instructions. Behave like you are an expert sentence classifier. Classify the following sentence from FOMC into ‘HAWKISH’, ‘DOVISH’, or ‘NEUTRAL’ class. Label ‘HAWKISH’ if it is corresponding to tightening of the monetary policy, ‘DOVISH’ if it is corresponding to easing of the monetary policy, or ‘NEUTRAL’ if the stance is neutral. Provide the label in the first line and provide a short explanation in the second line."
 
-### Experiment on XLNet model
+Then we ask ChatGPT-4-Turbo with the same prompt as in the original paper to observe the zero-shot ChatGPT's performance.
 
-### Experiment on XLM-RoBERTa-base model
+Finally we adopt prompt engineering tips and add our own prompt to ChatGPT-4-Turbo and observe its performance. Our own prompt is:
+
+"Given the FOMC's commitment to maximum employment, stable prices, and moderate long-term interest rates, consider how the sentence reflects these goals. The FOMC aims for transparency in its decisions, acknowledging the fluctuating nature of employment, inflation, and interest rates, and the influence of non-monetary factors. It targets a 2\% inflation rate over the long term, adjusting policy to manage shortfalls in employment and deviations in inflation. The Committee's decisions are informed by a range of indicators, balancing risks and long-term goals, with an annual review of its policy strategy. 
+Example: 
+Input:  However, other participants noted that the continued subdued trend in wages was evidence of an absence of upward pressure on inflation from the current level of resource utilization. 
+Output: DOVISH The sentence suggests that there is no significant wage-induced inflation pressure, which could imply that there is less need for tightening monetary policy. 
+Your analysis should incorporate an understanding of the FOMC's principles, particularly how monetary policy actions, including the federal funds rate adjustments, play a role in achieving these objectives and responding to economic disturbances."
+
+Our codes and outputs for zero-shot ChatGPT and prompt engineering can be found in:
+
+
+## Fine-tuned PLMs
+
+### Reproduction of original paper's experiments on Flang-RoBERTa-base, RoBERTa-base, RoBERTa-large
+
+### Search for additional hyperparameters on RoBERTa-large
+
+### XLNet
+
+### XLM-RoBERTa-base
 
 ## Implementing a trading strategy on the sentence classifier
