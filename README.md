@@ -21,6 +21,8 @@ In alignment with the methodology outlined in the original paper, our study empl
 
 Our codes and outputs for rule-based model can be found in:
 
+[Docs Folder](rule-based/)
+
 
 ## Zero-shot GPT and prompt engineering
 
@@ -42,6 +44,7 @@ Your analysis should incorporate an understanding of the FOMC's principles, part
 
 Our codes and outputs for zero-shot ChatGPT and prompt engineering can be found in:
 
+[Docs Folder](GPT/)
 
 ## Fine-tuned PLMs
 
