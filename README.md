@@ -1,5 +1,7 @@
 # COMP7607-project
 
+## Abstract
+
 This repository is for HKU COMP7607 Natural Language Processing, Fall 2023 Semester Final Group Project
 
 In this study, we expand upon the research conducted by Shah et al. (2023) to find the best-performing model that can classify sentences
@@ -11,4 +13,26 @@ https://arxiv.org/abs/2305.07972
 The original paper's code can be found in:
 https://github.com/gtfintechlab/fomc-hawkish-dovish
 
+## Project structure
 
+## Reproduction of original paper's experiments
+
+### Rule-based model
+
+### Zero-shot ChatGPT-3.5-Turbo
+
+### Fine-tuned PLMs:Flang-RoBERTa-base, RoBERTa-base, RoBERTa-large
+
+## Model enhancements and experiments on new models
+
+### Zero-shot ChatGPT-4-Turbo
+
+### Prompt engineering on ChatGPT-4-Turbo
+
+### Search for additional hyperparameters on RoBERTa-large model
+
+### Experiment on XLNet model
+
+### Experiment on XLM-RoBERTa-base model
+
+## Implementing a trading strategy on the sentence classifier
