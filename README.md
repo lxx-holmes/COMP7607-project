@@ -84,7 +84,7 @@ XLNet, introduced by Yang et al. (2019), can achieve state-of-the-art results on
 
 We fine-tuned XLNet to do the hawkish-dovish sentence classification task; codes and experiment results can be found in submodule:
 
-
+[Submodule repository](https://github.com/ChWeiqi/fomc-hawkish-dovish/tree/1cd4ed22a30304cc698024fad3220784f00ccd2e)
 
 ### XLM-RoBERTa-base
 
@@ -92,7 +92,7 @@ XLM-RoBERTa-base proposed by Conneau et al. (2019) is an extension of the RoBERT
 
 We fine-tuned XLM-RoBERTa-base to do the hawkish-dovish sentence classification task; codes and experiment results can be found in submodule:
 
-
+[Submodule repository](https://github.com/ChWeiqi/fomc-hawkish-dovish/tree/1cd4ed22a30304cc698024fad3220784f00ccd2e)
 
 ## Implementing a trading strategy on the sentence classifier
 
@@ -101,3 +101,5 @@ Here is an application of the hawkish-dovish sentence classifier in constructing
 It can be seen in the output graphs that "our strategy" can outperform the "buy and hold strategy" to earn an extra return.
 
 Results can be found in submodule: 
+
+[Submodule repository](https://github.com/ChWeiqi/fomc-hawkish-dovish/tree/1cd4ed22a30304cc698024fad3220784f00ccd2e)
