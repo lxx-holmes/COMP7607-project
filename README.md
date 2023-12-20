@@ -13,8 +13,6 @@ https://arxiv.org/abs/2305.07972
 The original paper's code can be found in:
 https://github.com/gtfintechlab/fomc-hawkish-dovish
 
-## Project structure
-
 ## Rule-based model
 
 In alignment with the methodology outlined in the original paper, our study employs the rule-based dictionary developed by Gorodnichenko et al. (2021). This dictionary encompasses a variety of terms and keywords related to different monetary policy stances, including topics such as inflation, interest rates, economic activity, and employment. We apply this dictionary specifically to filter the titles of FOMC speeches, intending to identify those speeches that are likely to contain pertinent information on monetary policy. By replicating the rule-based approach from the original paper, we obtain the same results as those presented in the original study.
@@ -84,7 +82,7 @@ The codes and experiment results can be found in:
 
 XLNet, introduced by Yang et al. (2019), can achieve state-of-the-art results on several NLP benchmarks, surpassing BERT and other models on tasks like text classification, question answering, and sentiment analysis. Our study shows that it can perform closely to RoBERTa, and outperform RoBERTa-base on the PC-S dataset. 
 
-We fine-tuned XLNet to do the hawkish-dovish sentence classification task; codes and experiment results can be found in:
+We fine-tuned XLNet to do the hawkish-dovish sentence classification task; codes and experiment results can be found in submodule:
 
 
 
@@ -92,7 +90,7 @@ We fine-tuned XLNet to do the hawkish-dovish sentence classification task; codes
 
 XLM-RoBERTa-base proposed by Conneau et al. (2019) is an extension of the RoBERTa model, specifically designed to improve multilingual capabilities and performance across a wide range of languages. Although our study focused only on English sentences and observed that XLM-RoBERTa did not perform as well as RoBERTa, we recognize the importance of XLM-RoBERTa's multilingual capabilities. In a world where global interactions are the norm, XLM-RoBERTa's proficiency in various languages is invaluable, especially for understanding the monetary policies of central banks in non-English speaking countries.
 
-We fine-tuned XLM-RoBERTa-base to do the hawkish-dovish sentence classification task; codes and experiment results can be found in:
+We fine-tuned XLM-RoBERTa-base to do the hawkish-dovish sentence classification task; codes and experiment results can be found in submodule:
 
 
 
@@ -101,3 +99,5 @@ We fine-tuned XLM-RoBERTa-base to do the hawkish-dovish sentence classification 
 Here is an application of the hawkish-dovish sentence classifier in constructing a trading strategy, same as that in the original paper. In this strategy ("our strategy"), a document-level hawkish tone measure is calculated on FOMC historical documents; this strategy will buy the QQQ index stocks when the FOMC shows a dovish tone, and short the QQQ index stocks when a hawkish tone is observed. The investment result is compared with the simple "buy and hold" strategy, where an investor simply buy the QQQ index at the beginning and hold till the end.
 
 It can be seen in the output graphs that "our strategy" can outperform the "buy and hold strategy" to earn an extra return.
+
+Results can be found in submodule: 
