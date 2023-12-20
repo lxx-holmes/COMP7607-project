@@ -56,19 +56,19 @@ In the original paper, Flang-RoBERTa-base trained on MM-S data is the best-perfo
 
 The codes for reproduction of Flang-RoBERTa-base and the output result can be found in:
 
-[Flang-RoBERTa reproduction](Reproduction/)
+[PLMs_reproduction/Flang_RoBERTa_base/](PLMs_reproduction/Flang_RoBERTa_base/)
 
 In the original paper, RoBERTa-base trained on Combined-S data is the best-performing base size model, achieving test F1 of 0.6981. We use the same set of hyperparameters on the combined-S data, and get a test F1 of 0.6722.
 
 The codes for reproduction of RoBERTa-base and the output result can be found in:
 
-[RoBERTa-base reproduction](Reproduction/)
+[PLMs_reproduction/RoBERTa_base/](PLMs_reproduction/RoBERTa_base/)
 
 In the original paper, RoBERTa-large trained on Combined data is the overall best-performing model, achieving test F1 of 0.7171. We use the same set of hyperparameters on the combined data, and get a test F1 of 0.7204.
 
 The codes for reproduction of RoBERTa-base and the output result can be found in:
 
-[RoBERTa-large reproduction](Reproduction/)
+[PLMs_reproduction/RoBERTa_large/](PLMs_reproduction/RoBERTa_large/)
 
 ### Search for additional hyperparameters on RoBERTa-large
 
